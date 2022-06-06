@@ -54,7 +54,7 @@ class Payments{
     }
     payClearing(date,sum,description,status,user){
         let idOfClearing = document.getElementById('idOfClearing').value;
-         if(date == "" || sum == "" || description == "" || status == "" || lastFourDigits == ""|| code == "" || password == "")
+         if(date == "" || sum == "" || description == "" || status == "" || idOfClearing == "")
             alert('pleaese enter all the details of payment!');
         else
             {
